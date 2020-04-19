@@ -14,4 +14,4 @@ let appData = {
 let expenses = prompt("Enter a required cost item this month","");
 let expensesMoney = prompt("How much will it cost?","");
 appData.expenses.expenses = expensesMoney;
-alert("Your budget for a 1 day - " + appData.budget / 30);
+console.log("Your budget for a 1 day - " + appData.budget / 30);
